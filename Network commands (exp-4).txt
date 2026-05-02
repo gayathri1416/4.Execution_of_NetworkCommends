@@ -1,0 +1,331 @@
+Microsoft Windows [Version 10.0.26200.8246]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\gayat>hostname
+Gayathri
+
+C:\Users\gayat>systeminfo
+
+Host Name:                     GAYATHRI
+OS Name:                       Microsoft Windows 11 Home Single Language
+OS Version:                    10.0.26200 N/A Build 26200
+OS Manufacturer:               Microsoft Corporation
+OS Configuration:              Standalone Workstation
+OS Build Type:                 Multiprocessor Free
+Registered Owner:              gayathri1614gayu@gmail.com
+Registered Organization:       N/A
+Product ID:                    00342-42769-75563-AAOEM
+Original Install Date:         18-09-2025, 09:11:48
+System Boot Time:              20-04-2026, 10:00:59
+System Manufacturer:           LENOVO
+System Model:                  83ER
+System Type:                   x64-based PC
+Processor(s):                  1 Processor(s) Installed.
+                               [01]: Intel64 Family 6 Model 154 Stepping 3 GenuineIntel ~2000 Mhz
+BIOS Version:                  LENOVO LTCN40WW, 05-06-2025
+Windows Directory:             C:\Windows
+System Directory:              C:\Windows\system32
+Boot Device:                   \Device\HarddiskVolume1
+System Locale:                 en-us;English (United States)
+Input Locale:                  00004009
+Time Zone:                     (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+Total Physical Memory:         16,077 MB
+Available Physical Memory:     6,469 MB
+Virtual Memory: Max Size:      18,111 MB
+Virtual Memory: Available:     4,921 MB
+Virtual Memory: In Use:        13,190 MB
+Page File Location(s):         C:\pagefile.sys
+Domain:                        WORKGROUP
+Logon Server:                  \\GAYATHRI
+Hotfix(s):                     6 Hotfix(s) Installed.
+                               [01]: KB5082417
+                               [02]: KB5050575
+                               [03]: KB5054156
+                               [04]: KB5065847
+                               [05]: KB5083769
+                               [06]: KB5088467
+Network Card(s):               1 NIC(s) Installed.
+                               [01]: Intel(R) Wi-Fi 6 AX203
+                                     Connection Name: Wi-Fi
+                                     DHCP Enabled:    Yes
+                                     DHCP Server:     192.168.0.1
+                                     IP address(es)
+                                     [01]: 192.168.0.104
+                                     [02]: fe80::c0de:81e8:6e38:fed3
+                                     [03]: 2406:7400:bb:6c29:44c9:416a:bfed:fbd9
+                                     [04]: 2406:7400:bb:6c29:1db8:8b07:91a8:deb0
+Virtualization-based security: Status: Running
+                               Required Security Properties:
+                                     Base Virtualization Support
+                               Available Security Properties:
+                                     Base Virtualization Support
+                                     Secure Boot
+                                     DMA Protection
+                                     UEFI Code Readonly
+                                     SMM Security Mitigations 1.0
+                                     Mode Based Execution Control
+                                     APIC Virtualization
+                               Services Configured:
+                                     Hypervisor enforced Code Integrity
+                               Services Running:
+                                     Hypervisor enforced Code Integrity
+                               App Control for Business policy: Enforced
+                               App Control for Business user mode policy: Off
+                               Security Features Enabled:
+Hyper-V Requirements:          A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+
+C:\Users\gayat>ipconfig
+
+Windows IP Configuration
+
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   IPv6 Address. . . . . . . . . . . : 2406:7400:bb:6c29:1db8:8b07:91a8:deb0
+   Temporary IPv6 Address. . . . . . : 2406:7400:bb:6c29:44c9:416a:bfed:fbd9
+   Link-local IPv6 Address . . . . . : fe80::c0de:81e8:6e38:fed3%11
+   IPv4 Address. . . . . . . . . . . : 192.168.0.104
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : fe80::e6fa:c4ff:fe98:7e65%11
+                                       192.168.0.1
+
+C:\Users\gayat>ping google.com
+
+Pinging google.com [2404:6800:4007:83b::200e] with 32 bytes of data:
+Reply from 2404:6800:4007:83b::200e: time=3ms
+Reply from 2404:6800:4007:83b::200e: time=87ms
+Reply from 2404:6800:4007:83b::200e: time=7ms
+Reply from 2404:6800:4007:83b::200e: time=7ms
+
+Ping statistics for 2404:6800:4007:83b::200e:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 3ms, Maximum = 87ms, Average = 26ms
+
+C:\Users\gayat>tracert google.com
+
+Tracing route to google.com [2404:6800:4007:83b::200e]
+over a maximum of 30 hops:
+
+  1    13 ms     3 ms     3 ms  2406:7400:bb:6c29:e6fa:c4ff:fe98:7e65
+  2     6 ms     2 ms     5 ms  2406:7400:b1::2
+  3     *        *        *     Request timed out.
+  4     *        *        *     Request timed out.
+  5     3 ms    10 ms     2 ms  2001:4860:1:1::1c38
+  6    10 ms     2 ms     2 ms  2404:6800:8201:c0::1
+  7     6 ms     5 ms     3 ms  2001:4860:0:1::55cc
+  8     9 ms     4 ms     2 ms  2001:4860:0:1::5599
+  9     7 ms     3 ms     2 ms  lcmaaa-an-in-x0e.1e100.net [2404:6800:4007:83b::200e]
+
+Trace complete.
+
+C:\Users\gayat>nslookup google.com
+Server:  UnKnown
+Address:  2406:7400:b0:b::2
+
+Non-authoritative answer:
+Name:    google.com
+Addresses:  2404:6800:4007:83b::200e
+          142.251.222.174
+
+
+C:\Users\gayat>pathping google.com
+
+Tracing route to google.com [2404:6800:4007:83b::200e]
+over a maximum of 30 hops:
+  0  Gayathri [2406:7400:bb:6c29:44c9:416a:bfed:fbd9]
+  1  2406:7400:bb:6c29:e6fa:c4ff:fe98:7e65
+  2  2406:7400:b1::2
+  3     *        *        *
+Computing statistics for 50 seconds...
+            Source to Here   This Node/Link
+Hop  RTT    Lost/Sent = Pct  Lost/Sent = Pct  Address
+  0                                           Gayathri [2406:7400:bb:6c29:44c9:416a:bfed:fbd9]
+                                0/ 100 =  0%   |
+  1   18ms     0/ 100 =  0%     0/ 100 =  0%  2406:7400:bb:6c29:e6fa:c4ff:fe98:7e65
+                                0/ 100 =  0%   |
+  2   16ms     0/ 100 =  0%     0/ 100 =  0%  2406:7400:b1::2
+
+Trace complete.
+
+C:\Users\gayat>netstat -an
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:445            0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:1309           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:5040           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:5432           0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49664          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49665          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49668          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49669          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49670          0.0.0.0:0              LISTENING
+  TCP    0.0.0.0:49678          0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:28385        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:28390        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:49350        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:49351        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:49705        127.0.0.1:49706        ESTABLISHED
+  TCP    127.0.0.1:49706        127.0.0.1:49705        ESTABLISHED
+  TCP    127.0.0.1:49709        127.0.0.1:49710        ESTABLISHED
+  TCP    127.0.0.1:49710        127.0.0.1:49709        ESTABLISHED
+  TCP    127.0.0.1:53231        0.0.0.0:0              LISTENING
+  TCP    127.0.0.1:53231        127.0.0.1:53234        ESTABLISHED
+  TCP    127.0.0.1:53234        127.0.0.1:53231        ESTABLISHED
+  TCP    127.0.0.1:59373        127.0.0.1:59374        ESTABLISHED
+  TCP    127.0.0.1:59374        127.0.0.1:59373        ESTABLISHED
+  TCP    127.0.0.1:63910        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63911        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63912        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63913        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63914        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63915        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63916        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63917        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63918        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63919        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63920        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63921        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63922        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63923        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63926        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63927        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63929        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63930        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63931        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63932        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63933        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63934        127.0.0.1:49350        TIME_WAIT
+  TCP    127.0.0.1:63935        127.0.0.1:49350        TIME_WAIT
+  TCP    192.168.0.104:139      0.0.0.0:0              LISTENING
+  TCP    192.168.0.104:49672    50.17.214.25:443       ESTABLISHED
+  TCP    192.168.0.104:51675    98.86.6.2:443          ESTABLISHED
+  TCP    192.168.0.104:53725    52.6.254.186:443       ESTABLISHED
+  TCP    192.168.0.104:62068    51.222.43.134:443      ESTABLISHED
+  TCP    192.168.0.104:63042    34.207.30.232:443      ESTABLISHED
+  TCP    192.168.0.104:63908    54.84.251.228:443      ESTABLISHED
+  TCP    192.168.0.104:63928    52.71.173.178:443      ESTABLISHED
+  TCP    192.168.0.104:64129    54.205.122.41:443      ESTABLISHED
+  TCP    [::]:135               [::]:0                 LISTENING
+  TCP    [::]:445               [::]:0                 LISTENING
+  TCP    [::]:5432              [::]:0                 LISTENING
+  TCP    [::]:49664             [::]:0                 LISTENING
+  TCP    [::]:49665             [::]:0                 LISTENING
+  TCP    [::]:49668             [::]:0                 LISTENING
+  TCP    [::]:49669             [::]:0                 LISTENING
+  TCP    [::]:49670             [::]:0                 LISTENING
+  TCP    [::]:49678             [::]:0                 LISTENING
+  TCP    [::1]:42050            [::]:0                 LISTENING
+  TCP    [::1]:49671            [::]:0                 LISTENING
+  TCP    [2406:7400:bb:6c29:44c9:416a:bfed:fbd9]:59159  [2603:1040:a06:6::2]:443  ESTABLISHED
+  TCP    [2406:7400:bb:6c29:44c9:416a:bfed:fbd9]:59181  [2603:1046:c06:c54::2]:443  TIME_WAIT
+  TCP    [2406:7400:bb:6c29:44c9:416a:bfed:fbd9]:61336  [2404:6800:4003:c11::bc]:443  ESTABLISHED
+  TCP    [2406:7400:bb:6c29:44c9:416a:bfed:fbd9]:62052  [2603:1040:a06:6::2]:443  ESTABLISHED
+  TCP    [2406:7400:bb:6c29:44c9:416a:bfed:fbd9]:62407  [2404:6800:4003:c11::bc]:443  ESTABLISHED
+  TCP    [2406:7400:bb:6c29:44c9:416a:bfed:fbd9]:63036  [2a06:98c1:3107::6812:2715]:443  ESTABLISHED
+  UDP    0.0.0.0:123            *:*
+  UDP    0.0.0.0:5050           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5353           *:*
+  UDP    0.0.0.0:5355           *:*
+  UDP    127.0.0.1:1900         *:*
+  UDP    127.0.0.1:49664        127.0.0.1:49664
+  UDP    127.0.0.1:49905        *:*
+  UDP    192.168.0.104:137      *:*
+  UDP    192.168.0.104:138      *:*
+  UDP    192.168.0.104:1900     *:*
+  UDP    192.168.0.104:49904    *:*
+  UDP    [::]:123               *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5353              *:*
+  UDP    [::]:5355              *:*
+  UDP    [::1]:1900             *:*
+  UDP    [::1]:49903            *:*
+  UDP    [fe80::c0de:81e8:6e38:fed3%11]:1900  *:*
+  UDP    [fe80::c0de:81e8:6e38:fed3%11]:49902  *:*
+
+C:\Users\gayat>arp -a
+
+Interface: 192.168.0.104 --- 0xb
+  Internet Address      Physical Address      Type
+  192.168.0.1           e4-fa-c4-98-7e-65     dynamic
+  192.168.0.255         ff-ff-ff-ff-ff-ff     static
+  224.0.0.22            01-00-5e-00-00-16     static
+  224.0.0.251           01-00-5e-00-00-fb     static
+  224.0.0.252           01-00-5e-00-00-fc     static
+  239.255.255.250       01-00-5e-7f-ff-fa     static
+  255.255.255.255       ff-ff-ff-ff-ff-ff     static
+
+C:\Users\gayat>getmac
+
+Physical Address    Transport Name
+=================== ==========================================================
+B8-F7-75-12-44-0E   \Device\Tcpip_{7E219268-D73E-431A-A14E-5F6A51B02B0D}
+
+C:\Users\gayat>route print
+===========================================================================
+Interface List
+  4...b8 f7 75 12 44 0f ......Microsoft Wi-Fi Direct Virtual Adapter
+  2...ba f7 75 12 44 0e ......Microsoft Wi-Fi Direct Virtual Adapter #2
+ 11...b8 f7 75 12 44 0e ......Intel(R) Wi-Fi 6 AX203
+  1...........................Software Loopback Interface 1
+===========================================================================
+
+IPv4 Route Table
+===========================================================================
+Active Routes:
+Network Destination        Netmask          Gateway       Interface  Metric
+          0.0.0.0          0.0.0.0      192.168.0.1    192.168.0.104     50
+        127.0.0.0        255.0.0.0         On-link         127.0.0.1    331
+        127.0.0.1  255.255.255.255         On-link         127.0.0.1    331
+  127.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+      192.168.0.0    255.255.255.0         On-link     192.168.0.104    306
+    192.168.0.104  255.255.255.255         On-link     192.168.0.104    306
+    192.168.0.255  255.255.255.255         On-link     192.168.0.104    306
+        224.0.0.0        240.0.0.0         On-link         127.0.0.1    331
+        224.0.0.0        240.0.0.0         On-link     192.168.0.104    306
+  255.255.255.255  255.255.255.255         On-link         127.0.0.1    331
+  255.255.255.255  255.255.255.255         On-link     192.168.0.104    306
+===========================================================================
+Persistent Routes:
+  None
+
+IPv6 Route Table
+===========================================================================
+Active Routes:
+ If Metric Network Destination      Gateway
+ 11   4146 ::/0                     fe80::e6fa:c4ff:fe98:7e65
+  1    331 ::1/128                  On-link
+ 11   4146 2406:7400:bb:6c29::/64   On-link
+ 11    306 2406:7400:bb:6c29:1db8:8b07:91a8:deb0/128
+                                    On-link
+ 11    306 2406:7400:bb:6c29:44c9:416a:bfed:fbd9/128
+                                    On-link
+ 11    306 fe80::/64                On-link
+ 11    306 fe80::c0de:81e8:6e38:fed3/128
+                                    On-link
+  1    331 ff00::/8                 On-link
+ 11    306 ff00::/8                 On-link
+===========================================================================
+Persistent Routes:
+  None
+
+C:\Users\gayat>
